@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+android:orientation="vertical"
+    android:background="#CCCCCC">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:orientation="horizontal">
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+           android:id="@+id/txtTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="hi kapil"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:layout_marginLeft="5dp" />
+    </LinearLayout>
+<LinearLayout
+    android:layout_marginBottom="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:orientation="horizontal">
+    <TextView
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:id="@+id/txtCreated" android:text="At: Mon,Jan"/>
+    <TextView
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:id="@+id/txtReady" android:text="Ready" />
+</LinearLayout>
+</LinearLayout>
